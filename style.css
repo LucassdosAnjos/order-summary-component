@@ -49,5 +49,43 @@ body {
 
 .texto p {
   text-align: center;
-  blue: hsl(224, 23%, 55%);
+  color: hsl(224, 23%, 55%);
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  height: 65px;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 1rem;
+  background: white;
+}
+
+.music-info {
+  display: flex;
+  align-items: center;
+}
+
+.music-info img {
+  width: 48px;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+#year {
+  color: grey;
+}
+
+.link {
+  margin-left: 70px;
 }
